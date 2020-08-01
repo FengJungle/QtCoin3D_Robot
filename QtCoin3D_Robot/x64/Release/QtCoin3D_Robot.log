@@ -1,0 +1,22 @@
+﻿  Reading Qt configuration (E:\Qt\Qt5.9.0\5.9\msvc2017_64\bin\qmake.exe)
+  uic QtCoin3D_Robot.ui
+  rcc QtCoin3D_Robot.qrc
+  moc QtCoin3D_Robot.h
+   RCC: Warning: No resources in 'F:\Jungle\1.Program\1.Robot_Coin3D\QtCoin3D_Robot\QtCoin3D_Robot\QtCoin3D_Robot.qrc'.
+  main.cpp
+  QtCoin3D_Robot.cpp
+  Robot.cpp
+  SoDHTransform.cpp
+e:\coin3d\include\inventor\sbbasic.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 SoDHTransform.cpp)
+e:\coin3d\include\inventor\sbbasic.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 Robot.cpp)
+e:\coin3d\include\inventor\sbbasic.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 QtCoin3D_Robot.cpp)
+e:\coin3d\include\inventor\qt\viewers\soqtfullviewer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 QtCoin3D_Robot.cpp)
+e:\coin3d\include\inventor\qt\viewers\soqtfullviewer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 Robot.cpp)
+e:\coin3d\include\inventor\sbbasic.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 main.cpp)
+e:\coin3d\include\inventor\qt\viewers\soqtfullviewer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 main.cpp)
+  qrc_QtCoin3D_Robot.cpp
+  moc_QtCoin3D_Robot.cpp
+e:\coin3d\include\inventor\sbbasic.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 x64\Release\\moc\moc_QtCoin3D_Robot.cpp)
+e:\coin3d\include\inventor\qt\viewers\soqtfullviewer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 x64\Release\\moc\moc_QtCoin3D_Robot.cpp)
+main.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:ICF”规范)
+  QtCoin3D_Robot.vcxproj -> F:\Jungle\1.Program\1.Robot_Coin3D\QtCoin3D_Robot\x64\Release\QtCoin3D_Robot.exe
