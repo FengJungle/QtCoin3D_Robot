@@ -29,15 +29,15 @@ void SoDHTransform::rotateTheta(double itheta)
 void SoDHTransform::calculate()
 {
 	this->matrix.setValue(
-		qCos(theta), qSin(theta)*qCos(alpha), qSin(theta)*qSin(alpha), 0.0,
-		-qSin(theta), qCos(theta)*qCos(alpha), qCos(theta)*qSin(alpha), 0.0,
-		0.0, -qSin(alpha), qCos(alpha), 0.0,
-		a, -d * qSin(alpha), d*qCos(alpha), 1.0);
+		 qCos(theta), qSin(theta)*qCos(alpha),  qSin(theta)*qSin(alpha),  0.0,
+		-qSin(theta), qCos(theta)*qCos(alpha),  qCos(theta)*qSin(alpha),  0.0,
+		         0.0,            -qSin(alpha),              qCos(alpha),  0.0,
+		           a,        -d * qSin(alpha),            d*qCos(alpha),  1.0);
 }
 
 SoMatrixTransform * SoDHTransform::inverseMatrix()
 {
-	SoMatrixTransform * inMatrix = new SoMatrixTransform;
+	SoMatrixTransform *inMatrix = new SoMatrixTransform;
 	inMatrix->matrix.setValue(this->matrix.getValue().inverse());
 	return inMatrix;
 }

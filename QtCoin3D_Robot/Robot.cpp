@@ -166,8 +166,9 @@ void Robot::setAxis(double ip_joint[6])
 	angleAxis4->rotateTheta(ip_joint[3]);
 	angleAxis5->rotateTheta(ip_joint[4]);
 	angleAxis6->rotateTheta(ip_joint[5]);
-	for (int i = 0; i < 6; i++)
+	for (int i = 0; i < 6; i++) {
 		xp_joint[i] = ip_joint[i];
+	}
 
 	rootRobot->touch();
 }
