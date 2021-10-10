@@ -16,6 +16,7 @@ QtCoin3D_Robot::QtCoin3D_Robot(QWidget *parent)
 	robot = new Robot();
 	Robot_Root = robot->getRobotRootNode();
 	Coin_Root->addChild(Robot_Root);
+
 	initUiRobotAxis();
 
 

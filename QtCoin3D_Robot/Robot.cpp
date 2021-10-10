@@ -41,6 +41,7 @@ void Robot::initialRobot()
 	angleAxises.append(angleAxis4);
 	angleAxises.append(angleAxis5);
 	angleAxises.append(angleAxis6);
+
 	angleAxis1->setName("机器人1轴DH变换");
 	angleAxis2->setName("机器人2轴DH变换");
 	angleAxis3->setName("机器人3轴DH变换");
@@ -88,6 +89,7 @@ void Robot::initialRobot()
 	SoTransform *scaler = new SoTransform;
 	scaler->scaleFactor.setValue(1000, 1000, 1000);
 
+	// 读取基座+6个轴
 	for (int i = 0; i <= 6; i++)
 	{
 		QString path("Resources/Robot/ER3A-C60/ER3A-C60-" + QString::number(i + 1) + ".wrl");
