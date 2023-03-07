@@ -24,7 +24,7 @@ QtCoin3D_Robot::QtCoin3D_Robot(QWidget *parent)
 	simulatorView->setSceneGraph(Coin_Root);
 	simulatorView->setBackgroundColor(SbColor(0.60, 0.77, 0.43));
 	simulatorView->show();
-	SoQt::show(ui.widget_Coin3D_Robot);
+	// SoQt::show(ui.widget_Coin3D_Robot);
 }
 
 QtCoin3D_Robot::~QtCoin3D_Robot()
