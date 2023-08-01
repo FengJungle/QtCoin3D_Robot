@@ -17,3 +17,5 @@ Coin3D 依赖库：
 
 
 博客地址：https://blog.csdn.net/sinat_21107433/article/details/100054427
+
+视频教程：https://download.csdn.net/download/sinat_21107433/83105762
